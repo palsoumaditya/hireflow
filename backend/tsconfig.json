@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",             /* Modern JS features */
+    "module": "commonjs",           /* Node.js standard */
+    "rootDir": "./src",             /* Where your code lives */
+    "outDir": "./dist",             /* Where compiled code goes */
+    "strict": true,                 /* NO "any" types allowed. Strict mode on. */
+    "esModuleInterop": true,        /* Better compat with CommonJS modules */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true            /* Don't check library definition files for errors */
+  },
+  "include": ["src/**/*"]
+}
